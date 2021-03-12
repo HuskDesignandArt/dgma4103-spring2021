@@ -1,3 +1,21 @@
 header,footer{
   text-align:center;
 }
+nav{
+  border-radius: 15px;border: 4px solid #185358;
+  background-color: #298d97;
+}
+body{
+  background-color: #0e3235;
+}
+h3{
+  color: slategrey;
+  font-family:helvetica;
+}
+p{
+  font-family: Georgia;
+  color: slategrey;
+}
+h1{
+  color: slategrey;
+}
