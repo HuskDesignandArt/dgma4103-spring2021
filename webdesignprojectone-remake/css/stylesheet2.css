@@ -35,6 +35,7 @@ h1{
 img.center{
   display: inline;
   margin-left: 0px;
+  margin-right: auto;
 }
 table.picchart{
   border: 10px solid #9c5b3a;
@@ -44,13 +45,16 @@ table.picchart{
   margin-left: 0px;
 }
 tr,td,table{
-  border: 5px solid #d6a78f;
+  border: 5px solid #9c5b3a;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
 }
-table.ouch{
+table:not(.picchart){
   display: inline;
+  border: 5px solid #d6a78f;
+  float: right;
+  background-color: #b66a43;
 }
 dl,dt,dd{
   text-align: left;

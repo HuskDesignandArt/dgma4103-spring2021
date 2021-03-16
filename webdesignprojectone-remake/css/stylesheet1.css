@@ -21,7 +21,7 @@ p.right{
 }
 p{
   font-family: verdana;
-  text-align: right;
+  text-align: left;
   color: #808000;
 }
 dt,dd{
@@ -33,33 +33,28 @@ h1{
   font-family: sans-serif;
 }
 img.center{
-  display: block;
-  margin-left: auto;
-  margin-right: 0px;
+  display: inline;
+  margin-right:0px;
 }
 table.picchart{
   border: 10px solid #9c5b3a;
   border-radius: 20px;
   background-color:#c27e5b;
   padding: 5px;
-  margin-right: 0px;
 }
 tr,td,table{
-  border: 5px solid #9c5b3a;
+  border: 5px solid #9c5b78;
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
 }
 table:not(.picchart){
-  border: 5px solid #d6a78f;
+  display: inline;
   float: left;
   background-color: #b66a43;
 }
-dl,dt{
-  text-align: center;
-}
-dd{
-  text-align: right;
+dl{
+  width: 20%;
+  display: inline;
+  float: left;
 }
 div{
   text-align: center;
