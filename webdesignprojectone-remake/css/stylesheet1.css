@@ -33,8 +33,7 @@ h1{
   font-family: sans-serif;
 }
 img.center{
-  display: inline;
-  margin-right:0px;
+  display:inline;
 }
 table.picchart{
   border: 10px solid #9c5b3a;
@@ -52,7 +51,7 @@ table:not(.picchart){
   background-color: #b66a43;
 }
 dl{
-  width: 20%;
+  margin-right: 0px;
   display: inline;
   float: left;
 }
