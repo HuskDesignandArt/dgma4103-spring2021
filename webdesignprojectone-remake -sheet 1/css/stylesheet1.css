@@ -99,3 +99,10 @@ main{
 hr:not(.no){
   margin-left: 170px;
 }
+.hover-none{
+  color: lightblue;
+}
+.hover-none:hover{
+  text-decoration: none;
+  color: darkorange;
+}
